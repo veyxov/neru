@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.50.0](https://github.com/y3owk1n/neru/compare/v1.49.0...v1.50.0) (2026-07-30)
+
+
+### Features
+
+* **action:** hold, release, and toggle any mouse button ([#1119](https://github.com/y3owk1n/neru/issues/1119)) ([f92b475](https://github.com/y3owk1n/neru/commit/f92b475b8c2f804e819a970b8dcd2859f0c6ee67))
+* **linux,wayland:** resolve focused application ([#1105](https://github.com/y3owk1n/neru/issues/1105)) ([ff0c6fe](https://github.com/y3owk1n/neru/commit/ff0c6fef0aebe38a5fc68cafd72bb9ec36c217f4))
+* **linux,windows:** support function keys F13 through F24 ([#1118](https://github.com/y3owk1n/neru/issues/1118)) ([7303270](https://github.com/y3owk1n/neru/commit/73032709151d814197858041779940ad8bcb5dca))
+* **linux:** event-driven focused-app changes for per-app config ([#1115](https://github.com/y3owk1n/neru/issues/1115)) ([8c9500c](https://github.com/y3owk1n/neru/commit/8c9500c3dc4f39f9166649b5bedbdef50c1ca402))
+* **linux:** hint arrows for top/bottom placement ([#1111](https://github.com/y3owk1n/neru/issues/1111)) ([6a4112b](https://github.com/y3owk1n/neru/commit/6a4112bc06a2ba69413989364b292869e5818b79))
+* **linux:** modifier passthrough on Wayland evdev ([#1109](https://github.com/y3owk1n/neru/issues/1109)) ([31c84f8](https://github.com/y3owk1n/neru/commit/31c84f8f78cf022af6d801e6651dfd1af2eec322))
+* **linux:** mouse action indicator on X11 and Wayland ([#1110](https://github.com/y3owk1n/neru/issues/1110)) ([c907c7a](https://github.com/y3owk1n/neru/commit/c907c7ae1c401bdb930ed5b79003eac9bf9d27b3))
+* **linux:** smooth cursor animation for X11 and Wayland ([#1108](https://github.com/y3owk1n/neru/issues/1108)) ([13dc1ba](https://github.com/y3owk1n/neru/commit/13dc1ba1394c5d99d3138fb4b1e64635d186679c))
+* **linux:** Wayland hints support, app watcher, and overlay fixes ([#1107](https://github.com/y3owk1n/neru/issues/1107)) ([2988aa4](https://github.com/y3owk1n/neru/commit/2988aa4f3ee700a6e8edc786134b7b565e1b2e77))
+
+
+### Bug Fixes
+
+* **darwin:** keep cursor accurate and visible under Accessibility Zoom ([#1117](https://github.com/y3owk1n/neru/issues/1117)) ([b5e5a8b](https://github.com/y3owk1n/neru/commit/b5e5a8b19dbadfbed547975fab70fabaef3c230d))
+* **linux:** stop hints clearing on Wayland refresh ([#1113](https://github.com/y3owk1n/neru/issues/1113)) ([83970f0](https://github.com/y3owk1n/neru/commit/83970f0d4ea55dd5bb6c4332f6ed7e4758da2bae))
+
+
+### Performance Improvements
+
+* **linux:** use AT-SPI Collection.GetMatches for hint element collection ([#1114](https://github.com/y3owk1n/neru/issues/1114)) ([b812044](https://github.com/y3owk1n/neru/commit/b812044ca430ba2a3c9a83ba62fd27eb6a1c1627))
+
 ## [1.49.0](https://github.com/y3owk1n/neru/compare/v1.48.0...v1.49.0) (2026-07-27)
 
 
